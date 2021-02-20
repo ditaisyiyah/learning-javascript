@@ -1,3 +1,7 @@
+/*
+/// Fundamentals-1 ///
+
+///////////////////////////
 /// CODING CHALLANGE 1 ///
 
 // BMI = mass / height ** 2
@@ -34,7 +38,10 @@ console.log("Mark : " + markBMI2);
 console.log("John : " + johnBMI2);
 console.log("Mark's BMI is higher than John's? " + markHigherBMI2);
 
+/////////////////////////////////////////
 /// CODING CHALLANGE 2 (using DATA2) ///
+
+// nicer output to the console
 
 if (markBMI2 > johnBMI2) {
   console.log(`Mark's BMI (${markBMI2}) is higher than John's (${johnBMI2})!`);
@@ -42,7 +49,11 @@ if (markBMI2 > johnBMI2) {
   console.log(`Mark's BMI (${markBMI2}) is lower than John's (${johnBMI2})!`);
 }
 
+///////////////////////////
 /// CODING CHALLANGE 3 ///
+
+// fgure out the winner from the highest average score
+// do not forget it could be a draw
 
 // Data 1
 const dScore1 = 96;
@@ -65,7 +76,9 @@ if (dAverage > kAverage) {
   console.log(`Both win the trophy with even score (${dAverage})!`);
 }
 
-// Data 2 - minimum score
+// Data 2
+// apply minimal score for the winner candidate
+
 const scoreDolphins = (100 + 102 + 80) / 3;
 const scoreKoalas = (100 + 102 + 90) / 3;
 console.log(scoreDolphins, scoreKoalas);
@@ -84,7 +97,11 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
   console.log(`No one win the trophy :(`);
 }
 
+///////////////////////////
 /// CODING CHALLANGE 4 ///
+
+// simple calculator for tip from bill
+// and total must be paid
 
 const bill = 50; // 275, 40, 430
 let tip;
@@ -100,3 +117,4 @@ console.log(
     bill > 50 && bill < 300 ? (tip = 0.2 * bill) : (tip = 0.15 * bill)
   }, and the total value was ${bill + tip}.`
 );
+*/
