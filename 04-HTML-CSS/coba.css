@@ -1,17 +1,17 @@
+/* HTML & CSS */
+
 /* Globally Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; /* To adjust box width */
 }
-
 body {
   background-color: rgba(255, 255, 202, 0.993);
   font-family: arial;
   font-size: 16px;
   padding: 20px;
 }
-
 h1 {
   font-size: 32px;
   margin-bottom: 20px;
@@ -25,6 +25,7 @@ p {
 a {
   background-color: white;
 }
+
 /* Class element */
 .first {
   color: brown;
@@ -35,6 +36,7 @@ a {
   color: white;
   width: auto;
 }
+
 /* ID element */
 #course-image {
   width: auto;
@@ -45,8 +47,10 @@ a {
   width: 400px;
   border: 2px solid #444;
   padding: 18px; /* check if you disable the box-sizing */
-  height:  /* try to play with height and padding then */ text-align; /* be inhertied if the child has no assignment */
+  /* try to play with height and padding then */ 
 }
+/* value will be inhertied if the child has no assignment */
+
 /* Element insides element */
 #your-name p {
   color: white;
