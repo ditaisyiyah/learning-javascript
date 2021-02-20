@@ -1,5 +1,5 @@
 # learning-javascript
-My code diary during learning JavaScript on Udemy that taught by Jonas Schmedtmann
+All my codes during learning JavaScript on Udemy that taught by Jonas Schmedtmann
 
 What you will see on this repsitory:
 1. HTML (index.html) 
