@@ -1,6 +1,13 @@
+/*
+/// Fundamentals-2 ///
 "use strict";
 
+///////////////////////////
 /// CODING CHALLANGE 1 ///
+
+// adapted from cc3 jf1
+// figure out the winner from the average score
+// the winner have to at least double
 
 const calcAverage = function (team, score1, score2, score3) {
   const aveTeam = (score1 + score2 + score3) / 3;
@@ -22,7 +29,11 @@ const checkWinner = function (team1, ds1, ds2, ds3, team2, ks1, ks2, ks3) {
 console.log(checkWinner("Dolphins", 44, 23, 71, "Koalas", 65, 54, 49));
 console.log(checkWinner("Dolphins", 85, 54, 41, "Koalas", 23, 34, 27));
 
+///////////////////////////
 /// CODING CHALLANGE 2 ///
+
+// adapted from cc4 jf1
+// use an arrow function
 
 const calcTip = (bill) => (bill > 50 && bill < 300 ? 0.2 * bill : 0.15 * bill);
 
@@ -38,7 +49,11 @@ console.log(tips);
 const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(totals);
 
+//////////////////////////
 /// CODING CHALLAGE 3 ///
+
+// adapted from cc1 jf1
+// use an object
 
 const mark = {
   firstName: "Mark",
@@ -65,7 +80,11 @@ console.log(
   } than Mark's (${mark.calcBMI()})!`
 );
 
+///////////////////////////
 /// CODING CHALLANGE 4 ///
+
+// adapted from cc2
+// use and array
 
 // arrays
 const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
@@ -91,3 +110,4 @@ console.log(calcAverage(bills));
 console.log(calcAverage(tips));
 console.log(calcAverage(totals));
 console.log(calcAverage([3, 4, 5]));
+*/
