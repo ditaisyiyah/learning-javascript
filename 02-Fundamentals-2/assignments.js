@@ -1,7 +1,8 @@
+/*
 /// Fundamentals-2 ///
-
 "use strict"; // strict mode is activated
 
+//////////////////
 /// Functions ///
 
 // simple function, no parameter and return
@@ -34,6 +35,7 @@ and its capital city is ${capitalCity}.`);
 }
 describeCountry("Russia", 146, "Moscow");
 
+////////////////////////////////////////////
 /// Function Declaration vs. Expression ///
 
 // function declaration
@@ -68,6 +70,7 @@ const percentageOfWorld2 = function (population) {
 };
 console.log(percentageOfWorld2(1440));
 
+///////////////////////
 /// Arrow Function ///
 
 // assignment 3
@@ -88,6 +91,7 @@ so it's about ${ratio4}% of the world population.`;
 console.log(percentageOfWorld4(274));
 // arguments for 4 above ain't in var, stored value
 
+/////////////////////////////////////////
 /// Function Calling Other Functions ///
 
 // assignment 4
@@ -110,6 +114,7 @@ console.log(describePopulation("Russia", 124));
 
 //better to prevent use same name along any variables
 
+///////////////
 /// Arrays ///
 
 // way 1 [round bracket] can decide the length
@@ -181,6 +186,7 @@ function percent(popul) {
   return `${res}%`;
 }
 
+///////////////////////////////
 /// Basic Array Operations ///
 
 const alfabit = ["a", "b", "c"];
@@ -225,6 +231,7 @@ if (neighbours.includes("Germany")) {
 neighbours[neighbours.indexOf("Malaysia")] = "China";
 console.log(neighbours);
 
+////////////////////////////////
 /// Introduction to Objects ///
 
 // assignment 7
@@ -236,6 +243,7 @@ const myCountry = {
   neighbours: ["Ukraina", "Korea", "Japan"],
 };
 
+/////////////////////////////////
 /// Dot vs. Bracket Notation ///
 
 console.log(myCountry); // logged alphabetically
@@ -279,6 +287,7 @@ console.log(myCountry.population);
 myCountry["population"] = myCountry["population"] - 2;
 console.log(myCountry["population"]);
 
+///////////////////////
 /// Object Methods ///
 
 const dita = {
@@ -342,6 +351,7 @@ console.log(myCountry); //Island Property is added.
 // add () in function
 // use this insted object name
 
+////////////////////////////////
 /// Iteration: The for loop ///
 
 // assignment 10
@@ -349,6 +359,7 @@ for (let voter = 1; voter <= 5; voter++) {
   console.log(`Voter number ${voter} is currently voting`);
 }
 
+////////////////////////////////////////////////
 /// Looping Arays, Breaking, and Continuing ///
 
 const ditaArray = [
@@ -390,6 +401,7 @@ for (let i = 0; i < percentages2.length; i++) {
   );
 }
 
+/////////////////////////////////////////////
 /// Looping Backwards and Loops in Loops ///
 
 // assignment 12
@@ -410,6 +422,7 @@ for (let i = 0; i < listOfNeighbours.length; i++) {
   }
 }
 
+///////////////////////
 /// The While Loop ///
 
 let dice = Math.trunc(Math.random() * 6) + 1;
@@ -431,3 +444,4 @@ while (i < percentages3.length) {
   i++;
 }
 console.log(percentages3);
+*/
