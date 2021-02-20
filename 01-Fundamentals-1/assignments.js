@@ -1,5 +1,7 @@
+/*
 /// Fundamentals-1 ///
 
+/////////////////////////////
 /// Values and Variables ///
 
 let country = "Indonesia";
@@ -10,6 +12,7 @@ console.log(country);
 console.log(continent);
 console.log(population);
 
+////////////////////
 /// Data Types ////
 
 let isIsland = false; // Country=!Island
@@ -19,6 +22,7 @@ console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
 
+////////////////////////////
 /// let, const, and var ///
 
 language = "Bahasa";
@@ -30,6 +34,7 @@ const myContinent = "Asia"; // Protected
 console.log(typeof myCountry);
 console.log(typeof myContinent);
 
+////////////////////////
 /// Basic Operators ///
 
 population /= 2; // population = population / 2
@@ -55,6 +60,7 @@ let description =
   ".";
 console.log(description);
 
+/////////////////////////////////////
 /// Strings and Template Literal ///
 
 description = `${myCountry} is in ${myContinent},
@@ -68,6 +74,7 @@ console.log("or..");
 console.log(`using a template literal,
 devil eyes quote.`);
 
+/////////////////////////////////////////////
 /// Taking Decisions: if else Statements ///
 
 const average = 33;
@@ -80,6 +87,7 @@ if (population > average) {
   );
 }
 
+/////////////////////////////////////
 /// Type Conversion and Coersion ///
 
 // Coersion is auto conversion by JS
@@ -101,6 +109,7 @@ console.log(Boolean(0, "", undefined, null, NaN));
 console.log(Boolean({}, " "));
 // in if condition we can take benefit from falsy trusy values
 
+///////////////////////////////////////
 /// Equality Operators: == vs. === ///
 
 let numNeighbours = prompt(
@@ -131,6 +140,7 @@ if (numNeighbours === 1) {
 Please make sure your number not in negative or converted in Number.`);
 }
 
+//////////////////////////
 /// Logical Operators ///
 
 const myCountry = "Indonesia";
@@ -163,6 +173,7 @@ if (sarahCouldLive) {
   console.log(`${myCountry} does not meet you criteria :(`);
 }
 
+/////////////////////////////
 /// The Switch Statement ///
 
 const language = "hindi";
@@ -204,6 +215,7 @@ if (language === ("chinese" || "mandarin")) {
   console.log("Great language too :D");
 }
 
+/////////////////////////////////
 /// Statement and Expression ///
 
 const myPopulation = 274;
@@ -217,3 +229,4 @@ console.log(summary);
 console.log(
   `Indonesia's population is ${myPopulation >= 33 ? "above" : "below"} average!`
 );
+*/
