@@ -1,4 +1,3 @@
-/*
 /// Fundamentals-2 ///
 "use strict";
 
@@ -110,4 +109,4 @@ console.log(calcAverage(bills));
 console.log(calcAverage(tips));
 console.log(calcAverage(totals));
 console.log(calcAverage([3, 4, 5]));
-*/
+

@@ -1,4 +1,3 @@
-/*
 /// Developer Skills ///
 'use strict';
 
@@ -121,4 +120,4 @@ const printForecast = function (arr) {
 // 3)
 console.log(printForecast(temp1));
 console.log(printForecast(temp2));
-*/
+

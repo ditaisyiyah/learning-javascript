@@ -1,4 +1,3 @@
-/*
 /// Fundamentals-2 ///
 "use strict"; // strict mode is activated
 
@@ -444,4 +443,4 @@ while (i < percentages3.length) {
   i++;
 }
 console.log(percentages3);
-*/
+
