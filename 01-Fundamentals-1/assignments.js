@@ -1,4 +1,3 @@
-/*
 /// Fundamentals-1 ///
 
 /////////////////////////////
@@ -229,4 +228,3 @@ console.log(summary);
 console.log(
   `Indonesia's population is ${myPopulation >= 33 ? "above" : "below"} average!`
 );
-*/
