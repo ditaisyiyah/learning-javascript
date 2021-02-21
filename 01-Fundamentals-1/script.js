@@ -1,4 +1,3 @@
-/*
 /// Fundamentals-1 ///
 
 ///////////////////////////
@@ -117,4 +116,3 @@ console.log(
     bill > 50 && bill < 300 ? (tip = 0.2 * bill) : (tip = 0.15 * bill)
   }, and the total value was ${bill + tip}.`
 );
-*/
