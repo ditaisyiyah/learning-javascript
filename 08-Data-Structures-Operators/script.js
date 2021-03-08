@@ -147,7 +147,7 @@ restaurant.orderDelivery({
 // = to set default value for that variable
 
 //////////////////////////////////
-/// The Spread Operator (...) /// for ITERABLE:
+/// The Spread Operator (...) /// for ITERABLE objects:
 // String, Array, Maps, Sets. NOT OBJECT
 
 // String
@@ -286,7 +286,8 @@ let check2 = restaurant.dessert ?? 'Ice Cream';
 console.log(check2); // if dessert is nullish, logs ice cream
 
 ////////////////////////
-/// The for-of Loop /// for ITERABLE
+/// The for-of Loop /// for ITERABLE objects:
+// String, Array, Maps, Sets. NOT OBJECT
 
 for (const item of allMenu) console.log(item);
 // for (const [item] of allMenu) console.log(item);
@@ -376,10 +377,10 @@ console.log(arr[0]?.country ?? 'Array is empty');
 
 /// DATA STRUCTURES
 //////////////////////////////////////////////////////////
-/// Looping Objects: Keys, Values, and Entries /// return in ARRAY
-/// Objects: Object, Array, Set, Map
+/// Looping Objects: Object Keys, Values, and Entries /// return in ARRAY
+/// Allow Object become ITERABLE
 
-// Property NAMES/KEYS
+// KEYS or property's names
 const inWeek = Object.keys(myObj.fasting);
 console.log(inWeek); // [name,]
 
@@ -392,13 +393,13 @@ for (const day of inWeek) {
 }
 console.log(desc);
 
-// Property VALUES
+// VALUES or property's values
 const values = Object.values(myObj.fasting);
 console.log(values); // [value,]
 
-// Property ENTRIES
+// ENTRIES or property's names and values 
 const entries = Object.entries(myObj.fasting);
-console.log(entries); // [name[value,],]
+console.log(entries); // [name[value,value],]
 
 // Practical example
 for (const [day, { start, stop }] of entries) {
@@ -408,7 +409,8 @@ for (const [day, { start, stop }] of entries) {
 }
 /*
 /////////////
-/// Sets /// for ITERABLE and return in OBJECT
+/// Sets /// unique version of Array
+/// Ignores duplicates and easy to compute size
 
 let mySet = new Set(['Pizza', 'Pasta', 'Risotto', 'Pasta', 'Pasta', 'Pizza']);
 console.log(mySet, mySet.size);
@@ -435,6 +437,11 @@ console.log(mySet, mySet.size);
 
 /////////////////////////////////////////
 /// Maps: Fundamentals and Iteration ///
+/// As an Object but easy to iterate, compute size, and the key could be any data type
+/// Use this when you need the Keys that are not String
+/// Use Object when you need to include a Funtion (Method)
+
+/// FUNDAMENTALS
 
 let myMap = new Map();
 console.log(myMap);
