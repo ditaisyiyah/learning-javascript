@@ -104,7 +104,7 @@ const garuda = {
 };
 garuda.bookings(123, 'Dita Larasati');
 
-// Storing a function (NOT method) into a variable
+// MUST Storing a function (NOT method) into a variable
 const book = garuda.bookings;
 console.log(book);
 // book(234, 'Liam Neeson'); // does NOT work
@@ -114,8 +114,11 @@ const citilink = {
   airlineCode: 'CT',
   bookingList: [],
 };
-// CALL method: calls a funtion
-// sets THIS, and pass arguments
+
+// CALL method: calls an object's function from "this" object
+// storedFunctionName.call(this, arguments)
+// this = another object name
+// arguments = arguments that fit into stored-function
 book.call(citilink, 221, 'Sherlock Holmes');
 book.call(garuda, 999, 'Liam Neeson');
 
@@ -124,21 +127,25 @@ const batik = {
   airlineCode: 'BA',
   bookingList: [],
 };
-// APPLY method: passes an Array
+
+// APPLY method: passes an Array in function of "this" objects
+// storedFunctionName.apply(this, arguments)
 const order = [509, 'Ganang Wahyu'];
 // book.apply(batik, order);
 // Use modern operators instead of Apply
 book.call(batik, ...order);
 
-// BIND method: creates a NEW function
-// sets THIS and PRE-sets arguments
+// BIND method: creates a NEW function inside "this" that copying from another object
+// newFunctionName = storedFunctionName.bind(this)
 const bookGA = book.bind(garuda);
 const bookCT = book.bind(citilink);
 const bookBA = book.bind(batik);
 bookGA(163, 'Hadhry Hafizhul');
 bookCT(787, 'Halsey');
 bookBA(898, 'Jung Hoseok');
+
 // PARTIAL APPLICATION: preset partial argument
+// newFunctionName = storedFunctionName.bind(this, argument1)
 const bookGA111 = book.bind(garuda, 111);
 bookGA111('Noni Monica');
 
