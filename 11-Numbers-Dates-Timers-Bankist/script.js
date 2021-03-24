@@ -404,6 +404,8 @@ let sorted = false;
 btnSort.addEventListener('click', function (e) {
   e.preventDefault();
 
+  // BUG formattedDate is not sorted
+
   displayMovements(currentAccount, !sorted);
   sorted = !sorted; // set back to the default: false
 });
